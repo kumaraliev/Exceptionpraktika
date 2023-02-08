@@ -29,12 +29,12 @@ public class Main {
             System.out.println("I've done");
         }
 
-//        if (choose > array.length){
-//            MyException myException = new MyException("Массивде кандай индексте элементи жок");
-//            throw myException;
-//        }else {
-//            System.out.println("\n_____________________");
-//            System.out.println([choose]);
-//        }
+        if (choose > array.length){
+            MyException myException = new MyException("Массивде кандай индексте элементи жок");
+            throw myException;
+        }else {
+            System.out.println("\n_____________________");
+            System.out.println(array[choose]);
+        }
     }
 }
